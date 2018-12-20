@@ -1,0 +1,10 @@
+spring:
+  jackson:
+    date-format: yyyy-MM-dd #时间 字符串格式
+    time-zone: GMT+8
+
+logging:
+  file: target/springboot_test.log
+  level:
+    ROOT: warn
+    com.example.firstspringboot: debug #打印日志的最低级别 trace < debug < info < warn < error < fatal
